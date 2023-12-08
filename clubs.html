@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage</title>
+    <style>
+        #firstBgImage{
+        background-color: black;
+       } 
+       
+       #upperLine{
+            height: 4px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: black;
+            margin-top: 10px;
+        }
+        #navbar{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: black;
+            position: fixed;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+        }
+        #navbar > div{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: 80%;
+            
+            }
+            #navbar > div:hover{
+              cursor: pointer;
+              
+            }
+            
+        #lowerLine{
+            height: 1px;
+            width: 100%;
+            border: 1px solid white;
+            background-color: white;
+        }
+        #firstCollageImage{
+            height: 250px;
+            width: 100%;
+            /* border: 1px solid red; */
+            /* margin-top: 100px; */
+            background-color: black;
+            margin-top: 0px;
+        }
+        #firstCollageImage > img{
+            height: 100%;
+            width: 100%;
+        }
+        #whiteSpace{
+            background-color: black;
+            width: 100%;
+
+        }
+        
+            .waviy {
+              /*position: relative;*/
+              -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+              font-size: 80px;
+              height: 200px;
+              width: 100%;
+              background-color: black;
+              /* margin-left: 20%; */
+              margin-top: 70px;
+            }
+            .waviy span {
+              font-family: 'Alfa Slab One', cursive;
+              /* position: relative; */
+              display: inline-block;
+              color: #fff;
+              text-transform: uppercase;
+              animation: waviy 1s infinite;
+              animation-delay: calc(.1s * var(--i));
+              
+            }
+            @keyframes waviy {
+              0%,40%,100% {
+                transform: translateY(0)
+              }
+              20% {
+                transform: translateY(-20px)
+              }
+            }
+            #photos{
+                height: 150px;
+                width: 90%;
+                /* border: 1px solid black; */
+                margin-top: 50px;
+                /* background-color: red; */
+            }
+            #photos > p{
+                font-size: x-large;
+                font-weight: 600;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            #photosScetion{
+                height: 800px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            #photosScetion > div{
+                height: 100%;
+                width: 80%;
+                /* border: 1px solid black; */
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(3,1fr);
+                gap: 30px;
+            }
+            .CollageImages{
+                /* border: 1px solid red; */
+            }
+            .CollageImages > img{
+                height: 100%;
+                width: 100%;
+                border-radius: 50px;
+            }
+            #lastBox{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  margin-top: 100px;
+  color: white;
+  display: flex;
+}
+#lastBoxFirstPart{
+  height: 100%;
+  width: 40%;
+
+}
+#address{
+  height: 50%;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+#address > div{
+height: 200px;
+width: 200px;
+}
+#contactMe{
+  height: 110px;
+  width: 400px;
+  margin-top: 40px;
+  /* border: 1px solid white; */
+  /* background-color: aqua; */
+  margin-left: 30px;
+}
+#lastBoxSecondtPart{
+  height: 100%;
+  width: 60%;
+  /* border: 2px solid red; */
+  display: flex;
+  /* background-color: red; */
+}
+.firstLineDescription{
+  height: 90%;
+  width: 50%;
+  /* border: 1px solid yellow; */
+  margin-top: 5%;
+}
+/* .secondLineDescription{
+  height: 90%;
+  width: ;
+} */
+
+    </style>
+</head>
+<body>
+    
+    <div id="firstBgImage">
+
+        <div id="upperLine"></div>
+          <div id="navbar">
+              <div>
+                  <div class="navbarText"><a href="./index.html">Home</a></div>
+                  <div class="navbarText">Students</div>
+                  <div class="navbarText"><a href="./clubs.html">Clubs</a></div>
+                  <div class="navbarText"><a href="./collage.html">Collage</a></div>
+                  <div class="navbarText"><a href="./skills.html">Skills</a></div>
+                  <div class="navbarText"><a href="./freshers.html">Freshers</a></div>
+                  <div class="navbarText"><a href="./fest.html">Fest</a></div>
+                  <div class="navbarText">Orientation</div>
+              </div>
+          </div>
+          <div id="lowerLine"></div>
+    </div>
+        
+    <div id="whiteSpace">
+
+        
+                <div id="firstCollageImage">
+                    <div class="waviy">
+                        <span style="--i:1">S</span>
+                        <span style="--i:2">E</span>
+                        <span style="--i:3">E</span>
+                        <span style="--i:4"> </span>
+                        <span style="--i:5">A</span>
+                        <span style="--i:6">B</span>
+                        <span style="--i:7">O</span>
+                        <span style="--i:8">U</span>
+                        <span style="--i:9">T</span>
+                        <span style="--i:10"> </span>
+                        <span style="--i:11"> </span>
+                        <span style="--i:12">C</span>
+                        <span style="--i:13">L</span>
+                        <span style="--i:14">U</span>
+                        <span style="--i:15">B</span>
+                        <span style="--i:16">S</span>
+                     
+                       </div>
+                </div>
+    </div>
+    
+    <div id="photos">
+        <p>Echelon Institute of Technology hosts a variety of clubs that cater to the diverse interests of its students. Whether it's technology, literature, arts, or community service, these clubs provide a platform for like-minded individuals to come together, share ideas, and engage in activities that enhance both personal and professional development, adding a rich layer to the overall college experience.
+        </p>
+    </div>
+    <div id="photosScetion">
+        <div>
+            <div class="CollageImages">
+                <img src="./clucImages/ContentWriting.avif" alt="ContentWriting">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/CP.avif" alt="">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/Dance Club.avif" alt="">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/Film Maaking Club.avif" alt="">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/GDSE.avif" alt="">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/Film Maaking Club.avif" alt="">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/Robotics Club.jpg" alt="">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/Sports Clubs.avif" alt="">
+            </div>
+
+
+            <div class="CollageImages">
+                <img src="./clucImages/musics Club.avif" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="lastBox">
+        <div id="lastBoxFirstPart">
+          <div id="address">
+            <div>
+                <h1>Address</h1>
+                <br>
+                <br>
+                <p>Kheri-Manjhawali Road, Naharpar, Kabulpur Patti Mahtab, Faridabad, Haryana 121101</p>
+            </div>
+          </div>
+        <div id="contactMe">
+          <h3>Email: tusharsamaniya4956@gmail.com</h3>
+          
+          <h3>Insta: iamtusharsamaniya</h3>
+          
+          <h3>Btech Cse</h3>
+        </div>
+
+        </div>
+
+    <div id="lastBoxSecondtPart">
+      <div class="firstLineDescription">
+        <p>--Home</p>
+        <br>
+        <p>--Buses</p>
+        <br>
+        <p>--Courses</p>
+        <br>
+        <p>--Batches</p>
+        <br>
+        <p>--Students</p>
+        <br>
+        <p>--Life At Campus</p>
+        <br>
+        <p>--Hostal</p>
+        <br>
+        <p>--Teachers</p>
+        <br>
+        <p>--Facilities</p>
+        <br>
+        <p>--Blogs</p>
+        <br>
+        <p>--Skills</p>
+      </div>
+      <div class="firstLineDescription">
+        <p>--Time Table</p>
+        <br>
+        <p>--Staff</p>
+        <br>
+        <p>--Annoucement</p>
+        <br>
+        <p>--Ask query</p>
+        <br>
+        <p>--Freshers</p>
+        <br>
+        <p>--Fest</p>
+        <br>
+        <p>--Orientetion</p>
+        <br>
+        <p>--Notes</p>
+        <br>
+        <p>--Post</p>
+        <br>
+        <p>---See Website Maker</p>
+
+      </div>
+    </div>
+      </div>
+</body>
+</html>
